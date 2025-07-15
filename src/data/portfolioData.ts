@@ -5,7 +5,7 @@ export const portfolioData = {
     email: "aqib.umar2001@gmail.com",
     phone: "+92 310 5151192",
     location: "Ashraf Colony, Chakri Road, Rawalpindi",
-    website: "https://aqibumar.dev",
+    website: "https://portfolio-website-seven-tau-88.vercel.app/",
     linkedin: "https://www.linkedin.com/in/aqib-umar1/",
     github: "http://github.com/Aqib-Umar",
   },
@@ -137,30 +137,34 @@ export const portfolioData = {
       featured: true,
       ImageUrl: "/download.png",
     },
+    
+
+    {
+      title: "Portfolio Website",
+      description: "Personal portfolio website showcasing projects, skills, and experience with dark/light theme toggle and responsive design.",
+      technologies: ["React.js", "Tailwind CSS", "JavaScript", "Responsive Design"],
+      githubUrl: "https://github.com/Aqib-Umar/Portfolio-Website",
+      demoUrl: "https://portfolio-website-seven-tau-88.vercel.app/",
+      featured: true,
+      ImageUrl: "aqibpic.png"
+    },
     {
       title: "E-Commerce Women Clothing Store",
       description: "A modern and fully responsive online store for women's clothing, built with React.js and Tailwind CSS. Features include dynamic product listings, shopping cart functionality, and seamless user experience powered by Node.js backend.",
       technologies: ["React.js", "Node.js",  "Tailwind CSS"],
       githubUrl: "https://github.com/Aqib-Umar/E-commerce-",
       demoUrl: "https://e-commerce-six-roan-94.vercel.app/",
-      featured: true,
+      featured: false,
       ImageUrl: "/download2.png"
     },
-    {
-      title: "Portfolio Website",
-      description: "Personal portfolio website showcasing projects, skills, and experience with dark/light theme toggle and responsive design.",
-      technologies: ["React.js", "Tailwind CSS", "JavaScript", "Responsive Design"],
-      githubUrl: "https://github.com/aqibumar/portfolio",
-      demoUrl: "https://aqibumar.dev",
-      featured: false
-    },
+  
     {
       title: "Pet Adoption Platform",
       description: "Full-stack application connecting pet adopters with shelters",
-      technologies: ["React", "Firebase", "Node.js"],
+      technologies: ["React", "Firebase", "Node.js", "My SQL"],
       githubUrl: "https://github.com/Aqib-Umar/FinalYearProject",
       demoUrl: "#",
-      imageUrl: ""  // Your actual image path
+      ImageUrl: "petpic.png"  // Your actual image path
     }
 
   ]
